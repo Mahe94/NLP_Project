@@ -16,7 +16,7 @@ while line:
 	line = line.lower()
 	review = line[0]
 	new_line = re.sub('\'', '', line)	
-	new_line = re.sub('[_+-=?.,!@#$%^&*(){}:;\/|<>"\']', ' ', new_line)		
+	new_line = re.sub('[_+-=~`?.,!@#$%^&*(){}\[\]:;\/|<>"\']', ' ', new_line)		
 	new_line = re.sub(r' ([a-z0-9])*([0-9])([a-z0-9])', ' ', new_line)
 	new_line = re.sub(r'\b[a-zA-Z]{1,2}\b', '', new_line)	
 
