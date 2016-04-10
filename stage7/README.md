@@ -11,9 +11,9 @@
 9th Run : 0.7875 <br />
 10th Run: 0.7125 <br />
 
-## Average bigram Accuracy = 0.77375
-## Average unigram Accuracy = 0.55125
+### Average bigram Accuracy = 0.77375
+### Average unigram Accuracy = 0.55125
 
-# Improvement = (0.77375 - 0.55125) / 0.55125 
-              = 0.40363
-              = 40.363%
+## Improvement = (0.77375 - 0.55125) / 0.55125 
+##              = 0.40363
+##              = 40.363%
