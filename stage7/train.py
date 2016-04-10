@@ -52,7 +52,7 @@ def training(reviews, univocabulary, bivocabulary):
 			positive_uni_counts[univocabulary.index(w2)] += 1
 			positive_bi_Probabilities.append(0)
 		else:
-			positiveCount = positiveReview.count(word) + 1
+			positiveCount = positiveReview.count(word)
 			positive_bi_Probabilities.append( (1.0 * positiveCount)/positiveReview.count(w1) )
 		
 		if negativeReview.count(word) == 0:
@@ -60,7 +60,7 @@ def training(reviews, univocabulary, bivocabulary):
 			negative_uni_counts[univocabulary.index(w2)] += 1
 			negative_bi_Probabilities.append(0)
 		else:
-			negativeCount = negativeReview.count(word) + 1
+			negativeCount = negativeReview.count(word) 
 			negative_bi_Probabilities.append( (1.0 * negativeCount)/negativeReview.count(w1) )
 
 

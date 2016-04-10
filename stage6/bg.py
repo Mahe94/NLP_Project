@@ -13,7 +13,7 @@ with open("data.txt", "r") as fin:
 ug = set(review.split())
 # separating unigram with count > 1
 for key in ug:
-	if review.count(key)>3:
+	if review.count(key) > 1:
 		# print str(key)+"\r" 
 		unigram_list.append(key)
 
@@ -27,7 +27,7 @@ bg = set(bigram_list)
 bigram_list = []
 for key in bg:
 	substr = str(key[0])+" "+str(key[1])
-	if review.count(substr) > 3:
+	if review.count(substr) > 1:
 		bigram_list.append(substr)
 
 
