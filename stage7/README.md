@@ -14,6 +14,7 @@
 ### Average bigram Accuracy = 0.77375
 ### Average unigram Accuracy = 0.55125
 
-## Improvement = (0.77375 - 0.55125) / 0.55125 
-##              = 0.40363
-##              = 40.363%
+## Improvement 
+###= (0.77375 - 0.55125)  
+###             = 0.2225
+###             = 22.25%
