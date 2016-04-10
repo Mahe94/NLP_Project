@@ -5,4 +5,3 @@
 * bigram.txt - final file with all the bigrams with count > 1 
 * bg.py - code to make a megadoc which is file containing a single line, which is concatnated string of all reviews. And to create unigram.txt and bigram.txt
 
-Note : The combination file (voc.txt ~440M) is not commited to github due to size constranints
